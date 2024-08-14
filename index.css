@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+
+
+}
+.navbar{
+    background-color: #A1D6E2 ;
+    padding: 15px;
+
+
+   
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items{
+   
+margin-right: 40%;
+   
+}
+ul{
+list-style-type: none;
+display: flex;
+justify-content: space-evenly;
+gap: 100px;
+
+
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 10px;
+}
+#logo{
+width: 80px;
+margin-left: 50px;
+}
+.grid{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.cameras{
+    text-align: center;
+}
+
+
+img{
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  margin-bottom: 5px;
+ 
+}
+.camera-title{
+    display: block;
+    margin-bottom: 10px
+}
+.camera-title p, .camera-title span{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+.camera-title p{
+    margin-right: 10px
+}
+.comments , .submit{
+   
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    box-shadow: 0 3px 3px 0;
+     
+}
+footer p{
+    text-align: center;
+    color: grey;
+}
+.container{
+    text-align: center;
+    margin: 50px;
+    border: 1px solid black;
+    padding: 30px;
+}
+#close-icon{
+   display: flex;
+   flex-direction: row-reverse;
+   
+}
+
+
+form input{
+    border: 1px solid black;
+    padding: 5px 47px;
+    margin: 5px;
+}
+form textarea{
+    border: 1px solid black;
+}
+form button{
+padding: 10px;
+border: 1px solid black;
+box-shadow: 0 3px 3px 0;
+}
+
